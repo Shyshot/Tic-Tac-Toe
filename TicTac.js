@@ -15,6 +15,7 @@ const resetGame =()=>{
     EnbleBoxes();
     turn0=true;
     msgContainer.classList.add("hide");
+    count = 0
 }
 const winPatterns = [
     [0,1,2],
