@@ -50,6 +50,7 @@ const gameDraw = ()=>{
     msg.innerText = `Game was a Draw.`;
     msgContainer.classList.remove("hide");
     disableBoxes();
+    count = 0
 }
 
 const disableBoxes = ()=>{
@@ -67,6 +68,7 @@ const EnbleBoxes = ()=>{
 const showWinner = (winner)=>{
     msg.innerText = `Congartulations, Winner is ${winner}`;
     msgContainer.classList.remove("hide");
+    count = 0
 }
 const checkwinner = ()=>{
     for(pattern of winPatterns){
